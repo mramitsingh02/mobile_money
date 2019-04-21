@@ -8,7 +8,7 @@ import java.util.List;
 
 public class LocalCacheImpl implements Cache {
     public List<Gender> getGender() {
-        return null;
+        return List.of(Gender.values());
     }
 
     public List<Country> getCountries() {

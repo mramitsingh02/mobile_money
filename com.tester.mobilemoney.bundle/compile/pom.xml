@@ -13,7 +13,8 @@
     <artifactId>compile</artifactId>
     <properties>
         <avro.version>1.7.7</avro.version>
-
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
     <dependencies>
