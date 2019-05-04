@@ -1,0 +1,11 @@
+{
+"namespace": "com.tester.mobilemoney.avro.common",
+"name": "User",
+"type": "record",
+"doc": "A User reading.",
+"fields": [
+     {"name": "name", "type": "string"},
+     {"name": "favorite_number",  "type": ["int", "null"]},
+     {"name": "favorite_color", "type": ["string", "null"]}
+ ]
+}

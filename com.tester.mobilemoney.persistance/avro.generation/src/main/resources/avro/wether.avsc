@@ -1,0 +1,11 @@
+{
+"namespace": "com.tester.mobilemoney.avro.common",
+"name": "Weather",
+"type": "record",
+"doc": "A weather reading.",
+ "fields": [
+     {"name": "station", "type": "string", "order": "ignore"},
+     {"name": "time", "type": "long"},
+     {"name": "temp", "type": "int"}
+ ]
+}

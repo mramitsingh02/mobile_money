@@ -5,7 +5,7 @@
 
     <parent>
         <groupId>com.tester.mobilemoney.bundle</groupId>
-        <artifactId>bundle</artifactId>
+        <artifactId>compile</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
@@ -16,7 +16,6 @@
     <artifactId>persistance</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-
 
 
     <modules>
